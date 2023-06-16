@@ -1,0 +1,1 @@
+<p> A basic playbook to display content of a file using the "command" module</p>

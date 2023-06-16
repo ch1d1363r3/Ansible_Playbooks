@@ -1,0 +1,8 @@
+---
+- name: Display file content
+  hosts: localhost
+  connection: local
+  become: true
+  tasks:
+         - name: display file content
+           command: 'cat /etc/resolv.conf'
