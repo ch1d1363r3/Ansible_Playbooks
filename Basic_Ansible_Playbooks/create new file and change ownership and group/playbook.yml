@@ -1,0 +1,17 @@
+---
+- hosts: node01
+  become: true
+  tasks:
+          - name: 'create file and set group'
+            file:
+                    path: /opt/news/blog.txt
+                    state: touch
+                    group: sam
+- hosts: node02
+  become: true
+  tasks:
+          - name: 'create file and set owner'
+            file:
+                    path: /opt/news/story.txt
+                    state: touch
+                    owner: sam
