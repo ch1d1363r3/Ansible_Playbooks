@@ -1,9 +1,0 @@
----
-- name: 'copy file to destination across multiple hosts'
-  hosts: node01,node02
-  become: true
-  tasks:
-          - copy:
-                  src: /usr/src/blog/index.html
-                  dest: /opt/blog
-                  remote_src: yes

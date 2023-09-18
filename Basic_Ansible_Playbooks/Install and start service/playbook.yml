@@ -1,0 +1,13 @@
+---
+- name: service installer
+  hosts: node01 node02
+  become: true
+  tasks:
+          - name: install vsftpd
+            yum:
+                    name: vsftpd
+                    state: installed
+          - name: start service
+            service:
+                    name: vsftpd
+                    state: started

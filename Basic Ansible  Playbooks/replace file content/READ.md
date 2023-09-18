@@ -1,1 +1,0 @@
-<p>A playbook that uses the replace module to replace and edit file content, it receives two arguments 'regexp' and 'replace'</p>

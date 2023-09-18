@@ -1,0 +1,8 @@
+---
+- name: 'Archive folder'
+  hosts: node01 node02
+  become: true
+  tasks:
+          - archive:
+                  path: /usr/src/ecommerce/
+                  dest: /opt/ecommerce/demo.tar.gz
