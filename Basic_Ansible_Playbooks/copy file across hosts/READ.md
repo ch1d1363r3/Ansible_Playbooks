@@ -1,0 +1,1 @@
+A simple playbook that is used to copy files across different hosts using conditionals
