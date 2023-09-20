@@ -1,1 +1,0 @@
-<p> A simple playbook that uses lineinfile module to append a line to an existing file with existing content</p>

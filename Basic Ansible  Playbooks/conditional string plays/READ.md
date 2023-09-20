@@ -1,1 +1,0 @@
-<p> A simple playbook using conditional directive to echo a string depending on value of variable</p>

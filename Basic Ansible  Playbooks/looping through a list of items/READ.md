@@ -1,1 +1,0 @@
-<p> A simple playbook to loop through a list of items using the with_items module and ginger templating </p>
