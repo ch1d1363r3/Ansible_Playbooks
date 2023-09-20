@@ -1,1 +1,1 @@
-<p>A basic playbook that is used to zip a folder using the "Archive"  module and save it in another destination</p>
+A basic playbook that is used to zip a folder using the "Archive"  module and save it in another destination
