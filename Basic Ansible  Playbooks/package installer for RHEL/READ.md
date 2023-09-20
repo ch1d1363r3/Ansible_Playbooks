@@ -1,1 +1,0 @@
-<p>A simple playbook that is used to install packages using the 'yum' module on RHEL/CentOS/fedora distro</p>
